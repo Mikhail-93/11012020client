@@ -18,7 +18,7 @@ jobs:
           node-version: 15.5.0
           registry-url: https://registry.npmjs.org
       - run: |
-          git clone https://github.com/kopnik-org/kopnik-node
+          git clone https://github.com/kopnik-org/kopnik-client
           cd kopnik-node
           cp default.env .env
           docker-compose pull --quiet node db
